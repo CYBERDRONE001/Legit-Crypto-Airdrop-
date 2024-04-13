@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+@keyframes changeColor {
+    0% { color: #ff6600; } /* Orange */
+    25% { color: #ff3399; } /* Pink */
+    50% { color: #33ccff; } /* Blue */
+    75% { color: #66ff66; } /* Green */
+    100% { color: #ffcc00; } /* Yellow */
+}
+
+header {
+    background-color: ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    animation: changeColor 10s infinite; /* Change color every 10 seconds */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+     margin-bottom: 10px;
+     color: ;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: white ;
+}
+
+p {
+    color: White;
+}
+
+#item {
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#item:hover {
+    background-color: ;
+    animation: changeColor 10s infinite; /* Change color every 10 seconds */
+}
+
+.availability {
+    color: greenyellow;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#item1 {
+    text-align: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#item1:hover {
+    background-color: ;
+    animation: changeColor 10s infinite; /* Change color every 10 seconds */
+}
+
+.availability1 {
+    color: greenyellow;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+img {
+    width: 100%; /* Set width to 100% of its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#participants-list {
+    list-style: none;
+    padding: 0;
+}
+
+#participants-list li {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}

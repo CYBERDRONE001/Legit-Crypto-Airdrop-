@@ -2,8 +2,8 @@
 
 // Define the URLs for the airdrops
 var airdropUrls = {
-    airdrop1: "Crypto Airdrop.html",
-    airdrop2: "Airdropwebsite.html",
+    airdrop1: "Airdropwebsite.html",
+    airdrop2: "Crypto Airdrop.html",
     airdrop3: "https://wa.me/+2347043934781"
     // Add more URLs as needed
 };

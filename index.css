@@ -104,3 +104,16 @@ footer {
     padding: 10px 0;
     animation: changeColor 10s infinite; /* Change color every 10 seconds */
 }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logos {
+    margin-top: 10px;
+}
+
+.logos img {
+    width: 50px; /* Adjust size as needed */
+    margin: 0 10px; /* Adjust spacing between logos */
+}

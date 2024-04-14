@@ -20,3 +20,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 });
+const darkWebButton = document.getElementById('dark-web-button');
+
+    darkWebButton.addEventListener('click', function() {
+        window.location.href = 'https://your-dark-web-portal.com';
+    });

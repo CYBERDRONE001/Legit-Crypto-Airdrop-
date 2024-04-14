@@ -13,6 +13,13 @@ body {
     100% { color: #ffcc00; } /* Yellow */
 }
 
+.item-container {
+    margin-bottom: 20px; /* Adjust as needed for spacing between items */
+    padding: 10px;
+    background-color: #222; /* Adjust container background color */
+    border-radius: 8px; /* Optional: Add rounded corners to the container */
+}
+
 header {
     background-color: ;
     color: #fff;

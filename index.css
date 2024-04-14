@@ -74,6 +74,24 @@ main {
     transition: background-color 0.3s ease;
 }
 
+.navigation-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: ##ff152a;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
 .airdrops a:hover {
     background-color: ;
     animation: changeColor 10s infinite; /* Change color every 10 seconds */

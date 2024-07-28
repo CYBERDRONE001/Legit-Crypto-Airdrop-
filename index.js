@@ -25,3 +25,22 @@ const darkWebButton = document.getElementById('dark-web-button');
     darkWebButton.addEventListener('click', function() {
         window.location.href = 'Find Airdrop_2.0.apk';
     });
+
+const express = require('express');
+const bodyParser = require('body-parser');
+const app = express();
+
+app.use(bodyParser.json());
+
+app.post('/webhook', (req, res) => {
+  const message = req.body.message;
+  if (message && message.text) {
+    console.log('Received message:', message.text);
+    // Add code to update the website with the message
+  }
+  res.sendStatus(200);
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
